@@ -1,0 +1,11 @@
+<section class="bg-white py-12 text-center">
+  <h2 class="mb-8 font-bold text-3xl">Feedbacks</h2>
+  <p-carousel [value]="testimonials" [numVisible]="1" [numScroll]="1">
+    <ng-template let-feedback pTemplate="item">
+      <div class="bg-gray-100 shadow-md p-6 rounded-md">
+        <p class="text-gray-700 text-lg italic">"{{ feedback.comment }}"</p>
+        <p class="mt-4 text-gray-500 text-sm">- {{ feedback.name }}</p>
+      </div>
+    </ng-template>
+  </p-carousel>
+</section>
