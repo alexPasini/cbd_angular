@@ -4,8 +4,8 @@ import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from '../components/header/header.component';
 import { FeaturesComponent } from '../components/features/features.component';
-import { HowToBuyComponent } from '../how-to-buy/how-to-buy.component';
-import { FeedbacksComponent } from '../feedbacks/feedbacks.component';
+import { HowToBuyComponent } from '../components/how-to-buy/how-to-buy.component';
+import { FeedbacksComponent } from '../components/feedbacks/feedbacks.component';
 
 
 
