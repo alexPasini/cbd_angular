@@ -1,0 +1,44 @@
+<section class="bg-white px-4 sm:px-8 py-16">
+  <div class="mx-auto max-w-6xl">
+    <!-- Section Title -->
+    <div class="mb-12">
+      <h2 class="font-semibold text-gray-500 text-sm uppercase tracking-wide">
+        O que falam de nós?
+      </h2>
+      <h3 class="font-bold text-4xl text-gray-900">Feedbacks</h3>
+      <p class="mt-2 text-gray-600">
+        Conheça mais do nosso óleo de CBD por meio de feedbacks de pessoas que
+        confiam em nosso produto.
+      </p>
+    </div>
+
+    <!-- PrimeNG Carousel -->
+    <p-carousel
+      [value]="feedbacks"
+      [numVisible]="2"
+      [numScroll]="1"
+      [circular]="true"
+      [responsiveOptions]="responsiveOptions"
+      class="custom-carousel"
+    >
+      <ng-template pTemplate="item" let-feedback>
+        <!-- Feedback Card -->
+        <div
+          class="flex flex-col items-start bg-gray-100 shadow-md p-6 rounded-lg"
+        >
+          <div class="flex items-center mb-4">
+            <img
+              [src]="feedback.image"
+              alt="User Image"
+              class="mr-4 rounded-full w-12 h-12 object-cover"
+            />
+            <div>
+              <p class="font-bold text-gray-900">{{ feedback.name }}</p>
+            </div>
+          </div>
+          <p class="text-gray-600">{{ feedback.text }}</p>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+</section>
