@@ -1,0 +1,25 @@
+<div class="flex justify-between items-center bg-black px-4 h-16">
+  <!-- Logo centralizado -->
+  <div class="flex flex-grow justify-center h-16">
+    <img
+      class="h-full"
+      src="../../assets/media/logo_generica.png"
+      alt="logo aleatoria"
+    />
+  </div>
+
+  <!-- Ícone de carrinho no canto direito com badge -->
+  <button
+    class="relative mt-1 ml-4 p-4 rounded-full"
+    (click)="emitCardClicked()"
+  >
+    <i class="ph-shopping-cart-simple text-3xl text-white ph"></i>
+    <!-- Badge com número de produtos -->
+    <span
+      *ngIf="quantityOnCart > 0"
+      class="top-2 right-1 absolute flex justify-center items-center bg-red-600 rounded-full w-5 h-5 text-white text-xs"
+    >
+      {{ quantityOnCart }}
+    </span>
+  </button>
+</div>
