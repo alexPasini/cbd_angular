@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'galeria-produtos' title`, () => {
+  it(`should have the 'cbd-vital' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('galeria-produtos');
+    expect(app.title).toEqual('cbd-vital');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, galeria-produtos');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, cbd-vital');
   });
 });
