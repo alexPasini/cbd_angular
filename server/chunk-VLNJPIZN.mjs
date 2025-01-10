@@ -282,7 +282,7 @@ var ut = (() => {
           [1, "flex-1"],
           [
             "src",
-            "../../../assets/media/ampola1.png",
+            "assets/media/ampola1.png",
             "alt",
             "pessoa segurando frasco de oleo",
             1,
@@ -3239,31 +3239,31 @@ var Et = (() => {
             name: "Camila R. Bellucci",
             message:
               '"A press\xE3o da faculdade me levou a desenvolver uma ansiedade dif\xEDcil de controlar, era como se eu n\xE3o pudesse relaxar. Depois que comecei a usar o \xF3leo da CBD Vital Med, consegui me sentir mais tranquila e focada. Minhas noites de sono tamb\xE9m melhoraram muito. \xC9 incr\xEDvel como algo t\xE3o simples pode fazer tanta diferen\xE7a."',
-            image: "../../../assets/media/ampola1.png",
+            image: "assets/media/ampola1.png",
           },
           {
             name: "Rafaela M. Schneider",
             message:
               '"Perder minha m\xE3e foi o momento mais doloroso da minha vida, e isso me levou a uma tristeza constante. Eu n\xE3o tinha energia para nada, nem mesmo para cuidar de mim. O \xF3leo da CBD Vital Med foi essencial para virar essa p\xE1gina. Ele me ajudou a retomar o equil\xEDbrio emocional e trouxe de volta a disposi\xE7\xE3o para seguir em frente."',
-            image: "../../../assets/media/ampola1.png",
+            image: "assets/media/ampola1.png",
           },
           {
             name: "Giovanna T. Goulart",
             message:
               '"Minha ins\xF4nia estava ligada ao meu estilo de vida sedent\xE1rio. Era dif\xEDcil dormir e ainda mais complicado acordar com energia. Desde que comecei a usar o \xF3leo da CBD Vital Med, senti mudan\xE7as em v\xE1rias \xE1reas. Meu sono melhorou muito e, com mais disposi\xE7\xE3o, consegui voltar a me exercitar. Foi um ciclo positivo que come\xE7ou com o \xF3leo."',
-            image: "../../../assets/media/ampola1.png",
+            image: "assets/media/ampola1.png",
           },
           {
             name: "Renato L. Kowalski",
             message:
               '"Trabalhei por anos em atividades pesadas e, como resultado, desenvolvi uma h\xE9rnia de disco. As dores me acompanhavam o tempo todo, afetando at\xE9 tarefas simples como caminhar. Com o \xF3leo da CBD Vital Med, finalmente encontrei o al\xEDvio que precisava. Ele me devolveu a liberdade de fazer o que gosto, sem o sofrimento constante."',
-            image: "../../../assets/media/ampola1.png",
+            image: "assets/media/ampola1.png",
           },
           {
             name: "Antonio C. Oliveira ",
             message:
               '"Desde pequeno, enfrento crises epil\xE9pticas que limitaram minha vida de muitas formas. Foram d\xE9cadas lidando com isso, at\xE9 que, aos 40 anos, comecei a usar o \xF3leo da CBD Vital Med. As crises diminu\xEDram tanto que hoje posso levar uma vida muito mais tranquila e sem aquele medo constante. \xC9 um al\xEDvio que eu n\xE3o sabia que era poss\xEDvel."',
-            image: "../../../assets/media/ampola1.png",
+            image: "assets/media/ampola1.png",
           },
         ]);
     }
@@ -4175,7 +4175,7 @@ var xt = (() => {
           ],
           [
             "src",
-            "../../../assets/media/ampola-vertical1.png",
+            "assets/media/ampola-vertical1.png",
             "alt",
             "pessoa segurando frasco de oleo",
             1,
