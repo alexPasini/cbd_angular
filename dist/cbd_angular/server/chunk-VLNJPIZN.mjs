@@ -81,7 +81,7 @@ import { a as se } from "./chunk-VVCT4QZE.mjs";
 var pt = (() => {
   class n {
     constructor() {
-      this.title = "galeria-produtos";
+      this.title = "cbd-vital";
     }
     static {
       this.ɵfac = function (t) {
