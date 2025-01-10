@@ -7,7 +7,7 @@ export class SendWhats{
 
     let infoMesage = `\n *Total:* R$ ${totalPrice}\n\n`
     // let finalMesage = initiaMesage +itemsMesage+infoMesage
-    let finalMesage = ""
+    let finalMesage = "Olá, vim pelo site e gostaria de saber mais informações sobre os produtos.\n\n"
     return finalMesage
   }
   sendMensage() {
