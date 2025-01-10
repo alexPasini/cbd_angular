@@ -32,7 +32,7 @@ export class FeedbacksComponent {
   feedbacks = [
     {
       name: 'Camila R. Bellucci',
-      message: '"A pressão da faculdade me levou a desenvolver uma ansiedade difícil de controlar. Era como se eu nunca pudesse relaxar, nem mesmo nas horas de descanso. Depois que comecei a usar o óleo da CBD Vital Med, consegui me sentir mais tranquila e focada. Minhas noites de sono também melhoraram muito. É incrível como algo tão simples pode fazer tanta diferença."',
+      message: '"A pressão da faculdade me levou a desenvolver uma ansiedade difícil de controlar, era como se eu não pudesse relaxar. Depois que comecei a usar o óleo da CBD Vital Med, consegui me sentir mais tranquila e focada. Minhas noites de sono também melhoraram muito. É incrível como algo tão simples pode fazer tanta diferença."',
       image: '../../../assets/media/ampola.svg'
     },
     {
@@ -52,7 +52,7 @@ export class FeedbacksComponent {
     },
     {
       name: 'Antonio C. Oliveira ',
-      message: '"Desde pequeno, enfrento crises epilépticas que limitaram minha vida de muitas formas. Foram décadas lidando com isso, até que, aos 40 anos, comecei a usar o óleo da CBD Vital Med. As crises diminuíram tanto que hoje posso levar uma vida muito mais tranquila. É um alívio que eu não sabia que era possível."',
+      message: '"Desde pequeno, enfrento crises epilépticas que limitaram minha vida de muitas formas. Foram décadas lidando com isso, até que, aos 40 anos, comecei a usar o óleo da CBD Vital Med. As crises diminuíram tanto que hoje posso levar uma vida muito mais tranquila e sem aquele medo constante. É um alívio que eu não sabia que era possível."',
      image: '../../../assets/media/ampola.svg'
     }
   ];
