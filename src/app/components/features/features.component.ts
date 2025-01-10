@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { SendWhats } from '../../shared/send_mesage';
 @Component({
   selector: 'app-features',
   standalone: true,
@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 
 })
 export class FeaturesComponent {
-
+  constructor() {
+  }
+  sendMensage() {
+    const sendWhats = new SendWhats()
+    sendWhats.sendMensage()
+  }
 }
