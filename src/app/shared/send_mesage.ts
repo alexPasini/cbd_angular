@@ -6,8 +6,8 @@ export class SendWhats{
 
 
     let infoMesage = `\n *Total:* R$ ${totalPrice}\n\n`
-    let finalMesage = initiaMesage +itemsMesage+infoMesage
-
+    // let finalMesage = initiaMesage +itemsMesage+infoMesage
+    let finalMesage = ""
     return finalMesage
   }
   sendMensage() {
@@ -20,3 +20,5 @@ export class SendWhats{
     window.open(href, "_blank");
   }
 }
+
+// 5547992122928
