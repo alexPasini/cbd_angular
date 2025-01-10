@@ -21952,7 +21952,7 @@ var Av = { providers: [Ny(Jy, Ry()), Qg(), Mv()] };
 var xv = (() => {
   class t {
     constructor() {
-      this.title = "cbd-vital";
+      this.title = "galeria-produtos";
     }
     static {
       this.ɵfac = function (r) {
