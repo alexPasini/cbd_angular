@@ -1,0 +1,181 @@
+<section id ="conheca" class="flex flex-col bg-white py-12 w-full">
+  <div
+    class="flex lg:flex-row flex-col lg:justify-between lg:items-center gap-8 space-y-8 lg:space-y-0 mx-auto px-6 lg:px-8 w-full max-w-6xl"
+  >
+    <!-- Left Content -->
+    <div class="flex-1">
+      <div class="flex flex-col gap-6">
+        <h2 class="font-normal text-5xl text-gray-900 leading-tight">
+          Conheça o<br />
+          CBD Vital
+        </h2>
+
+        <p>
+          O canabidiol ou CBD é um fitocanabinoide sem propriedades
+          intoxicantes. Possui capacidades analgésicas, anti-inflamatórias,
+          antioxidantes, ansiolíticas, antidepressivas, anticonvulsivas,
+          estimulante ósseo, antináusea, neuroprotetora e tem efeito
+          imunomodulatório.
+        </p>
+        <button
+          (click)="sendMensage()"
+          class="bg-[#3B4B10] hover:bg-gray-800 shadow-md py-2 rounded-lg w-80 h-12 font-medium text-lg text-white"
+        >
+          Fale Conosco
+        </button>
+      </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="flex-1 space-y-8">
+      <p-accordion
+        class="space-y-4 bg-white w-full text-black"
+        expandIcon="pi pi-plus text-[#3B4B10]"
+        collapseIcon="pi pi-minus text-[#3B4B10]"
+      >
+        <p-accordionTab
+          iconPos="end"
+          [headerStyle]="{
+            'background-color': '#3B4B1026',
+
+            'border-radius': '8px',
+            'margin-bottom': '8px'
+          }"
+          [contentStyle]="{
+            'background-color': '#3B4B10',
+            color: '#FFFFFF',
+            'border-radius': '8px',
+            padding: '16px'
+          }"
+        >
+          <ng-template pTemplate="header">
+            <span class="flex items-center gap-2 w-full">
+              <span class="font-bold"> O que é Cannabis Medicinal? </span>
+            </span>
+          </ng-template>
+          <p class="m-0 text-sm text-white">
+            O óleo de Cannabis é um produto medicinal comumente usado no
+            tratamento de condições, para amenizar os efeitos colaterais de quem
+            faz.
+          </p>
+        </p-accordionTab>
+
+        <p-accordionTab
+          iconPos="end"
+          [headerStyle]="{
+            'background-color': '#3B4B1026',
+
+            'border-radius': '8px',
+            'margin-bottom': '8px'
+          }"
+          [contentStyle]="{
+            'background-color': '#3B4B10',
+            color: '#FFFFFF',
+            'border-radius': '8px',
+            padding: '16px'
+          }"
+        >
+          <ng-template pTemplate="header">
+            <span class="flex items-center gap-2 w-full">
+              <span class="font-bold">
+                O óleo de Cannabis causa dependência?</span
+              >
+            </span>
+          </ng-template>
+          <p class="m-0 text-sm text-white">
+            o óleo de cannabis medicinal não causa dependência química. Seus
+            compostos naturais são considerados seguros para uso prolongado.
+          </p>
+        </p-accordionTab>
+
+        <p-accordionTab
+          iconPos="end"
+          [headerStyle]="{
+            'background-color': '#3B4B1026',
+
+            'border-radius': '8px',
+            'margin-bottom': '8px'
+          }"
+          [contentStyle]="{
+            'background-color': '#3B4B10',
+            color: '#FFFFFF',
+            'border-radius': '8px',
+            padding: '16px'
+          }"
+        >
+          <ng-template pTemplate="header">
+            <span class="flex items-center gap-2 w-full">
+              <span class="font-bold"
+                >Como o óleo de Cannabis atua no corpo?</span
+              >
+            </span>
+          </ng-template>
+          <p class="m-0 text-sm text-white">
+            o óleo atua como relaxante muscular e anti-inflamatório. Dentre os
+            benefícios, produz efeito anticonvulsivo, anti-inflamatório,
+            antidepressivo e anti-hipertensivo.
+          </p>
+        </p-accordionTab>
+
+        <p-accordionTab
+          iconPos="end"
+          [headerStyle]="{
+            'background-color': '#3B4B1026',
+
+            'border-radius': '8px',
+            'margin-bottom': '8px'
+          }"
+          [contentStyle]="{
+            'background-color': '#3B4B10',
+            color: '#FFFFFF',
+            'border-radius': '8px',
+            padding: '16px'
+          }"
+        >
+          <ng-template pTemplate="header">
+            <span class="flex items-center gap-2 w-full">
+              <span class="font-bold"
+                >Quais patologias a CBD ajuda a amenizar?</span
+              >
+            </span>
+          </ng-template>
+          <p class="m-0 text-sm text-white">
+            O mesmo ajuda a amenizar mais de 50 patologias, entre elas:
+            a doença de Parkinson, Alzheimer, diabetes, náuseas, e câncer. Além
+            disso, atua como analgésico e imunossupressor, em distúrbios de
+            ansiedade, do sono e do movimento.
+          </p>
+        </p-accordionTab>
+        <p-accordionTab
+          iconPos="end"
+          [headerStyle]="{
+            'background-color': '#3B4B1026',
+
+            'border-radius': '8px',
+            'margin-bottom': '8px'
+          }"
+          [contentStyle]="{
+            'background-color': '#3B4B10',
+            color: '#FFFFFF',
+            'border-radius': '8px',
+            padding: '16px'
+          }"
+        >
+          <ng-template pTemplate="header">
+            <span class="flex items-center gap-2 w-full">
+              <span class="font-bold"
+                >Posso utilizar o óleo em qualquer horário?</span
+              >
+            </span>
+          </ng-template>
+          <p class="m-0 text-sm text-white">
+             o horário ideal para tomar óleo de CBD varia de acordo com as
+            necessidades de cada pessoa e os efeitos terapêuticos desejados. Por
+            isso, é sempre recomendado consultar um profissional de saúde para
+            obter orientação personalizada
+          </p>
+        </p-accordionTab>
+      </p-accordion>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,55 @@
+<section id="sobre" class="flex flex-col bg-white pb-12 w-full">
+  <div
+    class="flex lg:flex-row flex-col lg:justify-between lg:items-center space-y-8 lg:space-y-0 bg-white mx-auto px-6 lg:px-8 w-full max-w-6xl"
+  >
+    <!-- Left Content -->
+    <div class="flex-1">
+      <img
+        src="assets/media/ampola.png"
+        alt="pessoa segurando frasco de oleo"
+        class="w-full"
+      />
+
+      <div
+        class="flex lg:flex-row flex-col justify-center lg:justify-center items-center lg:space-x-8 space-y-6 lg:space-y-0 mt-5 w-full"
+      >
+        <!-- Stats -->
+        <div class="text-center">
+          <p class="font-bold text-[#3B4B10] text-4xl">+500</p>
+          <p class="text-gray-600">Pessoas atendidas</p>
+        </div>
+        <div class="text-center">
+          <p class="font-bold text-[#3B4B10] text-4xl">+300</p>
+          <p class="text-gray-600">Tratamentos iniciados</p>
+        </div>
+        <!-- Button -->
+      </div>
+    </div>
+
+    <div
+      class="lg:flex-row flex-col flex-1 lg:justify-between lg:items-center space-y-8 lg:space-y-0 mx-auto px-6 lg:px-8 w-full max-w-6xl"
+    >
+      <div class="flex flex-col space-y-4 w-full text-center lg:text-left">
+        <h2 class="font-semibold text-gray-500 text-sm uppercase tracking-wide">
+          Entenda mais sobre
+        </h2>
+        <h3 class="font-normal text-5xl text-gray-900 leading-tight">
+          Um produto que eleva sua saúde e qualidade de vida
+        </h3>
+        <p class="text-base text-gray-600 leading-relaxed">
+          A medicina natural, bioidêntica e comprovada cientificamente está à
+          sua disposição. Vamos promover saúde, bem-estar e qualidade de vida a
+          todos que precisam.
+        </p>
+        <button
+          (click)="sendMensage()"
+          class="bg-[#3B4B10] hover:bg-gray-800 shadow-md mt-6 py-2 rounded-lg w-80 h-12 font-medium text-lg text-white"
+        >
+          Fale Conosco
+        </button>
+      </div>
+
+      <!-- Right Content -->
+    </div>
+  </div>
+</section>

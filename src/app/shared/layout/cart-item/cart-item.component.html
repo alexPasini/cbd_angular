@@ -1,0 +1,26 @@
+<div *ngFor="let item of cart">
+  <div class="flex justify-between items-center shadow mt-4 p-2 rounded h-24">
+    <div class="flex items-start gap-2">
+      <img [src]="item.product.images[0]" alt="" class="h-20" />
+      <div class="flex flex-col w-full">
+        <div>
+          <h1>{{ item.product.name }} - {{ item.product.size }}</h1>
+          <h2>R${{ item.product.price }}</h2>
+        </div>
+
+        <input
+          type="number"
+          [(ngModel)]="item.quantity"
+          id="stacked"
+          class="rounded-lg"
+          (ngModelChange)="mudanca(item)"
+          min="1"
+          (keyup)="onQuantityChange($event, item)"
+        />
+      </div>
+    </div>
+    <button class="mx-2 h-full" (click)="removeItem(item)">
+      <i class="ph-trash hover:text-red-500 ph"></i>
+    </button>
+  </div>
+</div>

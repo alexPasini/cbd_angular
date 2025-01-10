@@ -1,0 +1,40 @@
+<section id="feedbacks"  class="bg-white py-12 w-full flex px-8">
+  <div
+    class="flex flex-col gap-8 lg:flex-row lg:items-center w-full max-w-6xl mx-auto px-6 lg:px-8 space-y-8 lg:space-y-0"
+  >
+    <div class="text-left mb-8 w-[30rem]">
+      <h2 class="text-3xl font-bold text-gray-800">O QUE FALAM DE NÓS?</h2>
+      <p class="text-lg text-gray-600">
+        Conheça mais do nosso óleo de CBD por meio de feedbacks de pessoas que
+        confiam em nosso produto.
+      </p>
+    </div>
+
+    <p-carousel
+    [value]="feedbacks"
+    [numVisible]="2"
+    [numScroll]="1"
+    [circular]="true"
+    [responsiveOptions]="responsiveOptions"
+    styleClass="w-full h-full flex max-w-[750px]"
+>
+    <ng-template let-feedback pTemplate="item">
+        <div class="flex flex-col h-9/10 gap-2 rounded-[2rem] grow border-1 surface-border m-2 p-8 bg-[#3B4B1026] feedback-card relative">
+            <div class="">
+                <img
+                    [src]="feedback.image"
+                    [alt]="feedback.name"
+                    class="w-16 h-16 rounded-full border-2 border-white" />
+            </div>
+            <div class="text-left mt-8 mb-3">
+                {{ feedback.message }}
+            </div>
+
+            <div class="mt-4  font-medium">
+                {{ feedback.name }}
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>
+  </div>
+</section>
