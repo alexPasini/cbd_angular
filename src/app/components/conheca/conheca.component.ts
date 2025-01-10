@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { AccordionModule } from 'primeng/accordion';
-
+import { SendWhats } from '../../shared/send_mesage';
 @Component({
   selector: 'app-conheca',
   standalone: true,
@@ -9,5 +9,10 @@ import { AccordionModule } from 'primeng/accordion';
 
 })
 export class ConhecaComponent {
-
+  constructor() {
+  }
+  sendMensage() {
+    const sendWhats = new SendWhats()
+    sendWhats.sendMensage()
+  }
 }
